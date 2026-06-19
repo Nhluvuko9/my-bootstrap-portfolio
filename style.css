@@ -91,3 +91,14 @@ main {
 .details {
     padding-top: 40px;
 }
+
+/* Projects Section */
+.projects-grid {
+    padding: 40px;
+}
+
+.projects-grid a {
+    color: black;
+}
+
+/* Contact Section */
