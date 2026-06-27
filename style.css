@@ -63,6 +63,8 @@ nav {
     top: 0;
     z-index: 1000;
     background-color: var(--header-bg-color);
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px);
     scroll-margin-top: 81.59px;
 }
 
@@ -207,4 +209,5 @@ textarea:focus, textarea:active, textarea:hover {
 footer {
     background-color: var(--body-bg-color);
     color: var(--text-color);
+    font-size: 0.75rem;
 }
